@@ -1,0 +1,14 @@
+These are the commands I used while coding along with this video:
+#+begin_src bash
+bundle exec rake console
+
+Book.all()
+
+Book.first()
+
+Book.first.author()
+
+Author.first()
+
+Author.first.books()
+#+end_src
